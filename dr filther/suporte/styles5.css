@@ -1,0 +1,85 @@
+nav ul{
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+}
+nav ul li { /**Menu do cabeçalho**/
+    display: inline;
+    font-size: 25px;
+}
+.menu-item {
+    text-decoration: none;
+    margin-right: 20px;
+    color: #333;
+}
+#about-link {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+}
+header{
+    text-align: center;
+    padding: 12px;
+    margin: 0 auto;
+    width: 80%;
+    border-bottom: 2px solid #333;
+}
+header{
+    text-align: center;
+}
+header h1{
+    font-style: italic;
+    font-size: 50px;
+}
+.conteudo{
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 20px;
+    text-align: center;
+}
+#banner {
+    background-color: #F8F8FF;
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    flex-direction: column; /* Empilha os elementos verticalmente */
+    text-align: center; /* Alinha o texto à esquerda dentro do banner */
+    font-size: 20px;
+    
+}
+
+.button {
+    display: inline-block;
+    background-color: #4CAF50; /* Cor de fundo */
+    color: rgb(0, 0, 0); /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Ícone do cursor ao passar */
+    text-decoration: none; /* Sem decoração de texto */
+    transition: background-color 0.3s; /* Transição suave de cor de fundo */
+}
+
+.button:hover {
+    background-color: #45a049; /* Cor de fundo ao passar o mouse */
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    width: 80%;
+    margin: 0 auto;
+
+}
+footer p{
+    font-size: 25px;
+}
+#contato{
+    text-align: center;
+    
+}
+#direitos{
+    border-top: 2px solid #333;
+}
